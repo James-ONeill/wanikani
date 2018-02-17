@@ -62,3 +62,9 @@
 .bg-radial-gradient-grey { background-image: radial-gradient(circle at center, #b3b3b3 0, #999 100%); }
 .bg-texture { background-image: url('/img/bg-texture.png'); }
 .bg-wk-icon { background-image: url('/img/wk-icon.png'); }
+
+.text-shadow-1 { text-shadow: 0 1px 0 config('colors.white'); }
+
+@variants focus {
+    .no-outline { outline: 0; }
+}

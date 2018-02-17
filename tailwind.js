@@ -47,13 +47,13 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
-  'grey-darkest': '#3d4852',
+  'grey-darkest': '#333',
   'grey-darker': '#606f7b',
   'grey-dark': '#999',
   'grey': '#b8c2cc',
-  'grey-light': '#dae1e7',
+  'grey-light': '#d5d5d5',
   'grey-lighter': '#eee',
-  'grey-lightest': '#f8fafc',
+  'grey-lightest': '#f6f6f6',
   'white': '#ffffff',
 
   'red-darkest': '#3b0d0c',
@@ -196,6 +196,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Open Sans',
       '-apple-system',
       'BlinkMacSystemFont',
       'Segoe UI',
@@ -715,7 +716,9 @@ module.exports = {
     'lg': '0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08)',
     'inner': 'inset 0 2px 4px 0 rgba(0,0,0,0.06)',
     'none': 'none',
+
     'navbar-circle': '0 1px 0 #fff, inset -2px 2px 0 rgba(0,0,0,0.15)',
+    'search': 'inset 0 1px 1px rgba(0,0,0,0.075)',
   },
 
 
