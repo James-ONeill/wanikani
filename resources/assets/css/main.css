@@ -22,6 +22,21 @@
  * @import "components/buttons";
  * @import "components/forms";
  */
+.navbar-item {
+    @apply .block .no-underline .py-5 .text-grey-dark;
+}
+
+.navbar-circle {
+    @apply .navbar-circle .block .border-4 .border-grey-dark block .flex .h-14 .items-center .justify-center .mb-2 .mx-auto .rounded-full .shadow-navbar-circle .w-14;
+}
+
+.navbar-circle--bg-img {
+    @apply .bg-contain .border-0;
+}
+
+.navbar-circle--filled {
+    @apply .bg-radial-gradient-grey .shadow-none .text-white;
+}
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
@@ -43,4 +58,7 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+.bg-my-gravatar { background-image: url('//www.gravatar.com/avatar/64e1c29….jpg?s=200&timestamp=02112018&d=https://cdn.wanikani.com/default-avatar-300x300-20121121.png'); }
+.bg-radial-gradient-grey { background-image: radial-gradient(circle at center, #b3b3b3 0, #999 100%); }
 .bg-texture { background-image: url('/img/bg-texture.png'); }
+.bg-wk-icon { background-image: url('/img/wk-icon.png'); }

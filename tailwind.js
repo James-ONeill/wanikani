@@ -120,13 +120,7 @@ let colors = {
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
 
-  'pink-darkest': '#451225',
-  'pink-darker': '#6f213f',
-  'pink-dark': '#eb5286',
-  'pink': '#f66d9b',
-  'pink-light': '#fa7ea8',
-  'pink-lighter': '#ffbbca',
-  'pink-lightest': '#ffebef',
+  'pink': '#f0a',
 
   get ['brand-darkest']() { return this['orange-darkest']; },
   get ['brand-darker']() { return this['orange-darker']; },
@@ -469,6 +463,7 @@ module.exports = {
     '14': '3.5rem',
     '16': '4rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
