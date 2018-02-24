@@ -48,6 +48,7 @@ let colors = {
 
   'black': '#22292f',
   'grey-darkest': '#333',
+  'grey-darker-2': '#555',
   'grey-darker': '#606f7b',
   'grey-dark': '#999',
   'grey': '#b8c2cc',
@@ -209,26 +210,12 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif',
     ],
-    'serif': [
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
-      'serif',
+    'sans-2': [
+      "Ubuntu",
+      "Helvetica",
+      "Arial",
+      "sans-serif"
     ],
-    'mono': [
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace',
-    ]
   },
 
 

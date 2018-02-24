@@ -1,4 +1,4 @@
-<div class="bg-white shadow">
+<div class="bg-linear-gradient-off-white bg-white shadow">
     <div class="container mx-auto">
         <ul class="flex justify-start list-reset text-center text-sm">
             <li class="mr-8 w-14">
