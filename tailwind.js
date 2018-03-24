@@ -51,7 +51,11 @@ let colors = {
   'grey-darker-3': '#434343',
   'grey-darker-2': '#555',
   'grey-darker': '#606f7b',
+  'grey-dark-3': '#888888',
+  'grey-dark-2': '#a6a6a6',
   'grey-dark': '#999',
+  'grey-3': '#bbbbbb',
+  'grey-2': '#c8c8c8',
   'grey': '#b8c2cc',
   'grey-light': '#d5d5d5',
   'grey-lighter': '#eee',
@@ -113,6 +117,7 @@ let colors = {
 
   'pink': '#f0a',
 
+  'black-full-10%': 'rgba(0,0,0,0.1)',
   'black-full-30%': 'rgba(0,0,0,0.3)',
   'white-75%': 'rgba(255,255,255,0.75)',
 
@@ -486,6 +491,7 @@ module.exports = {
     '2': '0.5rem',
     '3': '0.75rem',
     '4': '1rem',
+    '5': '1.25rem',
     '6': '1.5rem',
     '8': '2rem',
     '10': '2.5rem',
@@ -643,6 +649,7 @@ module.exports = {
     '2': '0.5rem',
     '3': '0.75rem',
     '4': '1rem',
+    '5': '1.25rem',
     '6': '1.5rem',
     '8': '2rem',
   },
@@ -701,6 +708,8 @@ module.exports = {
     'navbar-circle': '0 1px 0 #fff, inset -2px 2px 0 rgba(0,0,0,0.15)',
     'search': 'inset 0 1px 1px rgba(0,0,0,0.075)',
     'progression': 'inset 1px 10px 9px -6px rgba(0,0,0,0.3)',
+    'progress-bar': 'inset 0 1px 2px rgba(0,0,0,0.1)',
+    'progress-bar-threshold': '1px 0 0 #eee',
   },
 
 

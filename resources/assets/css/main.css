@@ -59,6 +59,7 @@
  * @import "utilities/skew-transforms";
  */
 .bg-linear-gradient-off-white { background-image: linear-gradient(to bottom, #fff, #f2f2f2); }
+.bg-top-inset-shadow { background-image: url('/img/top-inset-shadow.png'); }
 .bg-my-gravatar { background-image: url('//www.gravatar.com/avatar/64e1c29….jpg?s=200&timestamp=02112018&d=https://cdn.wanikani.com/default-avatar-300x300-20121121.png'); }
 .bg-radial-gradient-grey { background-image: radial-gradient(circle at center, #b3b3b3 0, #999 100%); }
 .bg-texture { background-image: url('/img/bg-texture.png'); }
@@ -70,12 +71,18 @@
 .bg-linear-gradient-blue-light-1 { background-image: linear-gradient(-45deg, rgb(0, 170, 255), rgb(0, 147, 221)); }
 .bg-linear-gradient-grey-darker-3-1 { background-image: linear-gradient(-45deg, rgb(85, 85, 85), rgb(67, 67, 67)); }
 
+.bg-linear-gradient-blue-light-2 { background-image: linear-gradient(to bottom, #0af, #0093dd); }
+.bg-linear-gradient-pink-2 { background-image: linear-gradient(to bottom, #f0a, #dd0093); }
+
+
+.border-b-white { border-bottom-color: config('colors.white'); }
 .border-l-white { border-left-color: config('colors.white'); }
 
 .cursor-help { cursor: help; }
 
 .text-shadow-1 { text-shadow: 0 1px 0 config('colors.white'); }
 .text-shadow-2 { text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.4); }
+.text-shadow-3 { text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
 
 @variants focus {
     .no-outline { outline: 0; }

@@ -61,6 +61,54 @@
         </div>
     </div>
 
+    <div class="bg-grey-light container mt-1 mx-auto px-8 py-4 rounded">
+        <h3 class="font-normal my-3 text-grey-darker-2 text-lg text-shadow-1">
+            Level 16 Radicals Progression
+        </h3>
+
+        <div class="bg-grey-2 h-5 shadow-progress-bar">
+            <div class="h-5 bg-blue-light bg-linear-gradient-blue-light-2 w-1/2">
+
+            </div>
+        </div>
+        <div class="leading-loose text-grey-dark text-shadow-1 text-xs">
+            0
+            <span class="float-right">6</span>
+        </div>
+
+        <div class="bg-center bg-no-repeat bg-top-inset-shadow font-bold leading-loose my-4 pt-2 text-grey-dark-3 text-shadow-1 text-center text-xs">
+            <span class="cursor-pointer">
+                SEE APPRENTICE RADICALS LEFT
+                <i class="fa fa-chevron-down"></i>
+            </span>
+        </div>
+
+        <hr class="border-b border-b-white border-t border-grey-3 my-5">
+
+        <h3 class="font-normal my-3 text-grey-darker-2 text-lg text-shadow-1">
+            Level 16 Kanji Progression
+        </h3>
+
+        <div class="bg-grey-2 h-5 relative shadow-progress-bar">
+            <div class="h-5 bg-pink bg-linear-gradient-pink-2 w-1/2">
+                <div class="absolute border-black-full-10% border-r h-5 flex items-center justify-end pin-l pin-t pr-2 text-grey-dark-2 shadow-progress-bar-threshold text-shadow-3 text-xs" style="width: 90%">
+                    Goal: 90%
+                </div>
+            </div>
+        </div>
+        <div class="leading-loose text-grey-dark text-shadow-1 text-xs">
+            0
+            <span class="float-right">36</span>
+        </div>
+
+        <div class="bg-center bg-no-repeat bg-top-inset-shadow font-bold leading-loose my-4 pt-2 text-grey-dark-3 text-shadow-1 text-center text-xs">
+            <span class="cursor-pointer">
+                SEE APPRENTICE KANJI LEFT
+                <i class="fa fa-chevron-down"></i>
+            </span>
+        </div>
+    </div>
+
 
     {{-- Kotoba Table Lists --}}
     {{-- Forum Topics List --}}
