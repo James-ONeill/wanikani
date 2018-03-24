@@ -48,6 +48,7 @@ let colors = {
 
   'black': '#22292f',
   'grey-darkest': '#333',
+  'grey-darker-3': '#434343',
   'grey-darker-2': '#555',
   'grey-darker': '#606f7b',
   'grey-dark': '#999',
@@ -97,13 +98,8 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
-  'blue-darkest': '#12283a',
-  'blue-darker': '#1c3d5a',
-  'blue-dark': '#2779bd',
-  'blue': '#3490dc',
-  'blue-light': '#6cb2eb',
-  'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
+  'blue-dark': '#294ddb',
+  'blue-light': '#0093dd',
 
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
@@ -113,15 +109,12 @@ let colors = {
   'indigo-lighter': '#b2b7ff',
   'indigo-lightest': '#e6e8ff',
 
-  'purple-darkest': '#21183c',
-  'purple-darker': '#382b5f',
-  'purple-dark': '#794acf',
-  'purple': '#9561e2',
-  'purple-light': '#a779e9',
-  'purple-lighter': '#d6bbfc',
-  'purple-lightest': '#f3ebff',
+  'purple': '#882d9e',
 
   'pink': '#f0a',
+
+  'black-full-30%': 'rgba(0,0,0,0.3)',
+  'white-75%': 'rgba(255,255,255,0.75)',
 
   get ['brand-darkest']() { return this['orange-darkest']; },
   get ['brand-darker']() { return this['orange-darker']; },
@@ -411,7 +404,7 @@ module.exports = {
   borderRadius: {
     'none': '0',
     'sm': '.125rem',
-    default: '.25rem',
+    default: '.3125rem',
     'lg': '.5rem',
     'full': '9999px',
   },
@@ -622,6 +615,7 @@ module.exports = {
     '4': '1rem',
     '5': '1.25rem',
     '6': '1.5rem',
+    '7': '1.75rem',
     '8': '2rem',
   },
 
@@ -706,6 +700,7 @@ module.exports = {
 
     'navbar-circle': '0 1px 0 #fff, inset -2px 2px 0 rgba(0,0,0,0.15)',
     'search': 'inset 0 1px 1px rgba(0,0,0,0.075)',
+    'progression': 'inset 1px 10px 9px -6px rgba(0,0,0,0.3)',
   },
 
 
