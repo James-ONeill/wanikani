@@ -73,6 +73,7 @@
 
 .bg-linear-gradient-blue-light-2 { background-image: linear-gradient(to bottom, #0af, #0093dd); }
 .bg-linear-gradient-pink-2 { background-image: linear-gradient(to bottom, #f0a, #dd0093); }
+.bg-linear-gradient-purple-2 { background-image: linear-gradient(to bottom, #a0f, #9300dd); }
 
 
 .border-b-white { border-bottom-color: config('colors.white'); }
@@ -80,9 +81,12 @@
 
 .cursor-help { cursor: help; }
 
-.text-shadow-1 { text-shadow: 0 1px 0 config('colors.white'); }
-.text-shadow-2 { text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.4); }
-.text-shadow-3 { text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+@variants hover {
+    .text-shadow-1 { text-shadow: 0 1px 0 config('colors.white'); }
+    .text-shadow-2 { text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.4); }
+    .text-shadow-3 { text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+    .text-shadow-4 { text-shadow: 0 1px 0 rgba(0,0,0,0.3), 0 0 10px #fff; }
+}
 
 @variants focus {
     .no-outline { outline: 0; }

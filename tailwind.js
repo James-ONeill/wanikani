@@ -119,6 +119,7 @@ let colors = {
 
   'black-full-10%': 'rgba(0,0,0,0.1)',
   'black-full-30%': 'rgba(0,0,0,0.3)',
+  'white-50%': 'rgba(255,255,255,0.5)',
   'white-75%': 'rgba(255,255,255,0.75)',
 
   get ['brand-darkest']() { return this['orange-darkest']; },
